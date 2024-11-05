@@ -31,7 +31,6 @@ class CityResource extends Resource
 
                 Forms\Components\FileUpload::make('photo')
                     ->required()
-                    ->label('Photo'),
             ]);
     }
 
