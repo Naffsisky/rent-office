@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('phone_number');
             $table->string('booking_trx_id');
             $table->boolean('is_paid');
-            $table->date('start_at');
+            $table->date('started_at');
             $table->unsignedInteger('total_amount');
             $table->unsignedInteger('duration');
             $table->date('ended_at');

@@ -16,7 +16,7 @@ class BookingTransaction extends Model
         'phone_number',
         'booking_trx_id',
         'is_paid',
-        'start_at',
+        'started_at',
         'total_amount',
         'duration',
         'ended_at',

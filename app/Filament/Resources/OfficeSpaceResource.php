@@ -101,6 +101,8 @@ class OfficeSpaceResource extends Resource
 
                 Tables\Columns\TextColumn::make('city.name'),
 
+                Tables\Columns\TextColumn::make('address'),
+
                 Tables\Columns\IconColumn::make('is_full_booked')
                     ->boolean()
                     ->trueColor('danger')
